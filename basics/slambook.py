@@ -1,0 +1,16 @@
+name= input("Who are you")
+city= input("Where do you live")
+age= input("What is your age")
+hobby= input("What is your hobby")
+movie= input("what is your favorite movie")
+food= input("What is your favorite food")
+
+print("Name:", name)
+print("City:" , city)
+print("Age:" , age)
+print("hobby:" , hobby)
+print("movie:", movie)
+print("food:", food)
+
+age= input("Enter your age")
+type(age)
