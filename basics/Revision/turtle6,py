@@ -1,0 +1,28 @@
+from turtle import*
+
+
+bgcolor('black')
+speed('fastest')
+side = 3
+size = 100
+pensize(2)
+
+for i in range(side):
+    pencolor('blue')
+    forward(size)
+    for i in range(3):
+        pencolor('green')
+        forward(45)
+        pencolor('red')
+        circle(12)
+        pencolor('yellow')
+        left(360/3)
+    
+    left(360/3)
+
+mainloop()
+
+
+
+    
+
