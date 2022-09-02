@@ -1,5 +1,3 @@
-
-from codecs import escape_decode
 import pgzrun
 from random import randint
 
@@ -8,10 +6,13 @@ HEIGHT = 500
 
 p = Actor('char1',(50,200))
 c= Actor('char2',(randint(0, WIDTH), randint(0 , HEIGHT) ))
-a = Actor('item2')
-speed = 3 #speed of movement
-espeed = 1
+e = Actor('item1')
+speed = 7 #speed of movement
+espeed = 2
 score = 0 # global variable
+
+is_game_started= True
+is_game_over= False
 
 def draw():
     if not is_game_started and not is_game_over:
